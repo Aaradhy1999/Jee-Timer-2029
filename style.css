@@ -21,3 +21,17 @@ h1 {
     color: #ffffff;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
+
+.lineA {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.countdown-box {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
