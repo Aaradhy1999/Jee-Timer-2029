@@ -15,4 +15,10 @@ function updateCountdown() {
     const hour = minute * 60;
     const day = hour * 24;
     const month = day * 30.436875;
+
+    const calculatedMonths = Math.floor(difference / month);
+    const calculatedDays = Math.floor((difference % month) / day);
+    const calculatedHours = Math.floor((difference % day) / hour);
+    const calculatedMinutes = Math.floor((difference % hour) / minute);
+    const calculatedSeconds = Math.floor((difference % minute) / second);
 }
