@@ -13,3 +13,11 @@ body {
     text-align: center;
     padding: 20px;
 }
+
+h1 {
+    font-size: 3rem;
+    letter-spacing: 4px;
+    margin-bottom: 5px;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
