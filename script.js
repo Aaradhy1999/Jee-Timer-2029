@@ -27,4 +27,7 @@ function updateCountdown() {
     hoursContainer.innerText = String(calculatedHours).padStart(2, '0');
     minutesContainer.innerText = String(calculatedMinutes).padStart(2, '0');
     secondsContainer.innerText = String(calculatedSeconds).padStart(2, '0');
+
+    setInterval(updateCountdown, 1000);
+    updateCountdown();
 }
