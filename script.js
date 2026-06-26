@@ -8,9 +8,9 @@ const targetDate = new Date('January 1, 2029 00:00:00').getTime();
 
 function updateCountdown() {
     const now = new Date().getTime();
-    const difference = targetDate - now;
-
-    const second = 1000;
+    const difference = targetDate - now;  /*getTime() give result in millisecond here we have to convert it in second
+                                            hence these convertion constants are used*/
+    const second = 1000;                     
     const minute = second * 60;
     const hour = minute * 60;
     const day = hour * 24;
